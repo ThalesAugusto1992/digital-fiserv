@@ -1,4 +1,4 @@
-package com.thales.avaliacao.rest;
+package com.thales.avaliacao.service;
 
 import com.thales.avaliacao.exceptions.CNPJNotFoundException;
 import com.thales.avaliacao.exceptions.EmpresaNotFoundException;

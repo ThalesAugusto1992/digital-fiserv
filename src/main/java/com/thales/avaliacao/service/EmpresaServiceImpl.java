@@ -1,12 +1,13 @@
-package com.thales.avaliacao.rest;
+package com.thales.avaliacao.service;
 
-import com.thales.avaliacao.data.EmpresaRepository;
 import com.thales.avaliacao.exceptions.CNPJNotFoundException;
 import com.thales.avaliacao.exceptions.EmpresaNotFoundException;
 import com.thales.avaliacao.exceptions.EntityIdIsNotValidException;
 import com.thales.avaliacao.exceptions.InvalidCNPJException;
 import com.thales.avaliacao.model.Empresa;
 import com.thales.avaliacao.model.EmpresaDTO;
+import com.thales.avaliacao.repository.EmpresaRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

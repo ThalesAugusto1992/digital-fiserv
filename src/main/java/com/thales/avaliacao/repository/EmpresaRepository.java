@@ -1,4 +1,4 @@
-package com.thales.avaliacao.data;
+package com.thales.avaliacao.repository;
 
 import com.thales.avaliacao.model.Empresa;
 import org.springframework.data.domain.Page;

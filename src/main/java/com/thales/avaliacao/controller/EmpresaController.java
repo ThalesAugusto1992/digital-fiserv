@@ -1,10 +1,13 @@
-package com.thales.avaliacao.rest;
+package com.thales.avaliacao.controller;
 
 import com.thales.avaliacao.exceptions.CNPJNotFoundException;
 import com.thales.avaliacao.exceptions.EmpresaNotFoundException;
 import com.thales.avaliacao.exceptions.EntityIdIsNotValidException;
 import com.thales.avaliacao.exceptions.InvalidCNPJException;
 import com.thales.avaliacao.model.EmpresaDTO;
+import com.thales.avaliacao.service.EmpresaService;
+import com.thales.avaliacao.service.EmpresaServiceImpl;
+
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
